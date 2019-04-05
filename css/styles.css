@@ -1,0 +1,240 @@
+body
+{
+    background-color: #fff;
+}
+
+div#content
+{
+    color: #999;
+    /*
+    font-family: Helvetica, Arial, sans-serif;
+    */
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 108%;
+	min-width: 322px;
+    padding-bottom: 2em;
+    padding-left: 4em;
+    padding-right: 3em;
+}
+
+div#content a
+{
+    text-decoration: none;
+}
+
+div#content a:hover
+{
+    border-bottom: 1px dotted;
+}
+
+div#content fieldset
+{
+    border-top: 1px #999 solid;
+
+    margin-bottom: 1.5em;
+
+    /* preserve border to left of legend (for Safari) */
+    padding-left: 1em;
+
+    padding-top: .5em;
+}
+
+div#content fieldset legend
+{
+    color: #666;
+
+    font-weight: bold;
+
+    /* prevent fieldset's border from touching legend */
+    padding-left: .25em;
+    padding-right: .25em;
+
+    /* ensure long legends wrap in Firefox */
+    white-space: normal;
+}
+
+div#content fieldset legend span.legend
+{
+    /* ensure long legends wrap in IE6 */
+    display: inline-block;
+}
+
+div#content div.photo
+{
+    margin-left: 50px;
+	width: 272px;
+}
+
+div#content a:hover.img
+{
+    border-bottom: 0;
+}
+
+div#content div.photo img
+{
+    border: 1px #ccc solid;
+    padding: 5px;
+}
+
+div#content div.rss
+{
+    font-size: 77%;
+	text-align: right;
+    width: 322px;
+}
+
+div#content div.rss div
+{
+    font-weight: bold;
+	margin-bottom: .5em;
+}
+
+div#content div.rss a
+{
+    color: #aaa;
+}
+
+div#content div.rss a:hover
+{
+    color: #999;
+    border-bottom: 0;
+}
+
+div#content div.rss ul li
+{
+    list-style: none;
+}
+
+div#content p
+{
+    margin-bottom: 1em;
+}
+
+div#content p.smaller
+{
+    font-size: smaller;
+}
+
+div#content p.strong
+{
+    font-weight: bold;
+}
+                    
+div#content ul
+{   
+    margin-bottom: 1em;
+
+    /* indent bulleted lists */
+    margin-left: 1.5em;
+}
+
+div#content ul li
+{
+    /* align bullets' content */
+    list-style: disc outside;
+    margin-bottom: .25em;
+}
+
+div#content ul li ul li
+{
+    /* align bullets' content */
+    list-style: circle outside;
+    margin-bottom: .25em;
+}
+
+div#header
+{
+    padding-bottom: 1em;
+    padding-left: 5em;
+    padding-top: 1em;
+}
+
+div#header a
+{
+    text-decoration: none;
+}
+
+div#header h1 a
+{
+    /*
+    font-family: Helvetica, Arial, sans-serif;
+    */
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 138.5%;
+    line-height: 110%;
+    padding-left: 1em;
+}
+
+div#header h2 a
+{
+    color: #333;
+    /*
+    font-family: Arial Black, Arial Black, sans-serif;
+    */
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 197%;
+    line-height: 100%;
+}
+
+div#header h3 a
+{
+    color: #999;
+    /*
+    font-family: Helvetica, Arial, sans-serif;
+    */
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 138.5%;
+    line-height: 180%;
+    padding-left: 2em;
+}
+
+div#menu
+{
+    padding-top: 2em;
+    padding-left: 2em;
+}
+
+div#menu a
+{
+    color: #ccc;
+    /*
+    font-family: Helvetica, Arial, sans-serif;
+    */
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 197%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 90%;
+    text-decoration: none;
+}
+
+div#menu a:hover
+{
+    color: #999;
+}
+
+div#menu li
+{
+    text-align: right;
+}
+
+div#translator
+{
+    margin-top: 25px;
+    text-align: right;
+}
+
+div#wrapper
+{
+    /*
+    margin: auto;
+    max-width: 750px;
+    */
+    width: 750px;
+}
+
+table tr td
+{
+    vertical-align: top;
+}
